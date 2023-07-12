@@ -42,14 +42,14 @@ export default function Header() {
                 <div className='weather-information'>
                     <p className='weather-temperature'>{weather.temp_c}°C</p>
                     {/* <img className='weather-icon' src={weather.condition.icon} onMouseOver={() => setWeatherTooltip(true)} onMouseOut={() => setWeatherTooltip(false)}/> */}
-                    {
+                    {/* {
                         weatherTooltip ? 
                         (
                             <div className='weather-tooltip'>
                                 <p>{weather.condition.text}</p>
                             </div>
                         ) : null
-                    }
+                    } */}
                 </div>
             </div>
         </header>
