@@ -1,0 +1,49 @@
+:root {
+    --blue: #030835;
+    --green: #17A07F;
+    --orange: #F46036;
+    --beige: #F2C078;
+    --light-yellow: #FAEDCA;
+    --light-gray: #E8E8E8;
+    --white-font: #F4F4F4;
+    --white: #fff;
+
+    --youtube-red: #CF1717;
+    --netflix-red: #B91C24;
+    --spotify-green: #1DB954;
+    --bu-blue: #0000FF;
+
+    --font-logo: 'DM Serif Display', serif;
+    --font-date: 'Press Start 2P', cursive;
+    --font-article: 'Radley', serif;
+    --font-tabs: 'Lexend Deca', sans-serif;
+    --font-main: 'Alata', sans-serif;
+    --font-history: font-family: 'Urbanist', sans-serif;
+
+    --fs-logo: 60px;
+    --fs-sub-header: 30px;
+    --fs-tabs: 14px;
+    --fs-main: 16px;
+    --fs-site: 10px;
+    --fs-author: 8px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    font-size: var(--fs-main);
+    color: var(--white);
+}
+
+/* 
+font-family: 'Alata', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Radley', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Urbanist', sans-serif;
+ */

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import News from './components/News';
+import Panels from './components/Panels';
+import Tabs from './components/Tabs';
+import './default.css';
 
 function App() {
+
+  const loadPanels = (text) => {
+    // alert(`active panel: ${text}`)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Tabs returnActive={loadPanels} />
+      <Panels />
+      <News />
     </div>
   );
 }
