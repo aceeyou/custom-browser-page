@@ -41,7 +41,7 @@ export default function Header() {
                 <p className='Date-Weather-Text'>{getDateNow()}</p>
                 <div className='weather-information'>
                     <p className='weather-temperature'>{weather.temp_c}°C</p>
-                    {/* <img className='weather-icon' src={weather.condition.icon} onMouseOver={() => setWeatherTooltip(true)} onMouseOut={() => setWeatherTooltip(false)}/> */}
+                    <img className='weather-icon' src={weather.condition.icon} onMouseOver={() => setWeatherTooltip(true)} onMouseOut={() => setWeatherTooltip(false)}/>
                     {/* {
                         weatherTooltip ? 
                         (
