@@ -12,12 +12,15 @@ function News() {
         fetchNews()
     })
 
-    const newsContainer = document.querySelector(".news-container")
-
-    newsContainer.addEventListener("wheel", (e) => {
-        e.preventDefault()
-        e.deltaY > 0 ? newsContainer.scrollLeft += 800 : newsContainer.scrollLeft -= 800
-        e.preventDefault()
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const newsContainer = document.querySelector(".news-container")
+        
+        newsContainer.addEventListener("wheel", function(e) {
+            e.preventDefault()
+            e.deltaY > 0 ? newsContainer.scrollLeft += 800 : newsContainer.scrollLeft -= 800
+            e.preventDefault()
+        })
     })
 
     // horizontalWheel(newsContainer)
