@@ -42,8 +42,8 @@ export default function Header() {
                 <div className='weather-information'>
                     <p className='weather-temperature'>{weather.temp_c}°C</p>
                     {
-                        weather.condition.icon ?
-                        <img className='weather-icon' src={weather.condition.icon} onMouseOver={() => setWeatherTooltip(true)} onMouseOut={() => setWeatherTooltip(false)}/>
+                        weather?.condition.icon ?
+                        <img className='weather-icon' src={`https${weather?.condition.icon}`} onMouseOver={() => setWeatherTooltip(true)} onMouseOut={() => setWeatherTooltip(false)} alt="current weather icon" />
                         : null
                     }
                     {/* {
