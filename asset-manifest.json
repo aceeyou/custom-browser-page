@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/custom-browser-page/static/css/main.f3767cdb.css",
-    "main.js": "/custom-browser-page/static/js/main.eb9efee3.js",
+    "main.js": "/custom-browser-page/static/js/main.2dcb8ce9.js",
     "static/media/bu-logo.png": "/custom-browser-page/static/media/bu-logo.ddae15fe81280427cade.png",
     "index.html": "/custom-browser-page/index.html",
     "main.f3767cdb.css.map": "/custom-browser-page/static/css/main.f3767cdb.css.map",
-    "main.eb9efee3.js.map": "/custom-browser-page/static/js/main.eb9efee3.js.map"
+    "main.2dcb8ce9.js.map": "/custom-browser-page/static/js/main.2dcb8ce9.js.map"
   },
   "entrypoints": [
     "static/css/main.f3767cdb.css",
-    "static/js/main.eb9efee3.js"
+    "static/js/main.2dcb8ce9.js"
   ]
 }
