@@ -80,7 +80,7 @@ function News() {
     <div className='discovery-panel'>
         <h1 id="discovery-panel-title">Discover</h1>
         <div className='news-container'>
-            {news.map((article) => 
+            {news?.map((article) => 
                 (<NewsItem news={article} />)
             )}
         </div>
