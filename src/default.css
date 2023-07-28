@@ -38,6 +38,17 @@
     color: var(--white);
 }
 
+a {
+    text-decoration: none;
+}
+
+.oh-no {
+    font-style: italic;
+    font-family: Courier, sans-serif;
+    font-weight: 500;
+    color: #EFEFEF95;
+}
+
 /* 
 font-family: 'Alata', sans-serif;
 font-family: 'DM Serif Display', serif;

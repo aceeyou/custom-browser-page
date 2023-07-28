@@ -5,7 +5,6 @@ import "../default.css";
 export default function Header() {
   // Weather API Key = 1bdebbd5339f4cbe976110401231207
   const [weather, setWeather] = useState({});
-  //   const [weatherTooltip, setWeatherTooltip] = useState(false);
 
   useEffect(() => {
     fetchWeather();
@@ -52,7 +51,7 @@ export default function Header() {
       )
         .then((res) => res.json())
         .then((data) => {
-          setWeather(data.current);
+          setWeather(data?.current);
         });
     } catch (error) {
       console.log(error.message);
@@ -65,14 +64,7 @@ export default function Header() {
       <div className="App-Header-Date-Weather">
         <p className="Date-Weather-Text">{getDateNow()}</p>
         <div className="weather-information">
-          <p className="weather-temperature">{weather.temp_c}°C</p>
-          {weather?.condition?.icon ? (
-            <img
-              className="weather-icon"
-              src={`https${weather?.condition.icon}`}
-              alt="current weather icon"
-            />
-          ) : null}
+          <p className="weather-temperature">{weather?.temp_c}°C</p>
         </div>
       </div>
     </header>

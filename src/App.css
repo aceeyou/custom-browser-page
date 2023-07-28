@@ -9,7 +9,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 60px 0 60px;
-
 }
 
 .App-Header-Date-Weather {
@@ -28,7 +27,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
 }
 
 .weather-temperature {
@@ -58,7 +56,6 @@
   display: flex;
   margin-top: 50px;
   padding: 0px 60px;
-
 }
 
 .personalTab {
@@ -103,7 +100,6 @@
 
 .personalTab {
   background-color: aliceblue;
-  
 }
 
 .panelContainer {
@@ -167,6 +163,7 @@
   flex-direction: row;
   padding-left: 60px;
   width: 100%;
+  overflow-y: hidden;
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
@@ -178,9 +175,9 @@
 .news-item {
   max-height: 230px;
   padding: 5px;
-  margin-right: 30px;
+  margin-right: 20px;
   cursor: pointer;
-  transition: 150ms;
+  transition: 180ms;
 
   /* overflow: hidden;
   white-space: nowrap;
@@ -193,7 +190,7 @@
 }
 
 .news-image {
-  width: 180px;
+  width: 200px;
   height: 130px;
   aspect-ratio: auto 4 / 3;
 }
